@@ -52,7 +52,7 @@ def brute(session, username, password):
                'Referer': 'http://jwgl.aust.edu.cn/eams/login.action'
                }
 
-    data = {'encodedPassword=': '',
+    data = {'encodedPassword': '',
             'password': encrypt(session, password),
             'session_locale': 'zh_CN',
             'username': username}
